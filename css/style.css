@@ -1,0 +1,165 @@
+body{
+    background: #272a33;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+article .container{
+    border-bottom: 1px solid #33343e;
+    padding: 60px;
+}
+
+footer .container{
+    border-bottom: 1px solid #33343e;
+    padding-bottom: 30px;
+}
+
+article h1{
+    color: #fff;
+    font-size: 35px;
+    line-height: 52px;
+    letter-spacing: 2.5px;
+    margin-top: 0;
+}
+
+article p{
+    color: #b1b4b9;
+    font-size: 23px;
+    line-height: 34px;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+}
+
+input,
+textarea{
+    color: #919499;
+    background: #ccc;
+    border: none;
+
+    width: 215px;
+    padding: 14px 15px;
+    margin: 20px;
+    border-radius: 6px;
+    margin-right: 15px;
+    margin-bottom: 24px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+}
+
+textarea{
+    width: 500px;
+    height: 150px;
+}
+
+input:focus,
+textarea:focus {
+	transition: 0.25s all ease-in-out;
+	background: #fff;
+}
+
+::-webkit-input-placeholder {
+   color: #555;
+   font-style: italic;
+}
+
+::-moz-placeholder { 
+   color: #555;  
+   font-style: italic;
+}
+
+:-ms-input-placeholder {  
+   color: #555;  
+   font-style: italic;
+}
+
+.button{
+    cursor: pointer;
+    width: 180px;
+    padding: 20px 0px;
+    margin: 0px 15px 20px 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 3px rgba(85, 85, 85, 0.12);
+    text-transform: uppercase;
+    background: #e1736c;
+    color: #fff;
+    font-size: normal;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.alt{
+    background: none;
+    border: 1px solid #555;
+    color: #919499;
+}
+
+.footer-content{
+    display: flex;
+    gap: 30px;
+}
+
+form{
+    margin-top: 50px;
+    flex: 1;
+}
+
+.features{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 20px;
+}
+
+.features section{
+    width: 47%;
+}
+
+section h3{
+    color: #e1736c;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+section a{
+    color: #fff;
+    font-size: 17px;
+}
+
+section p{
+    color: #919499;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin: 0 0 0 60px;
+}
+
+.feature-title{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #555;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    margin: auto 0;
+}
+
+.feature-top{
+    border-bottom: 1px solid #33343e;
+}
