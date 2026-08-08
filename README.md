@@ -1,4 +1,4 @@
-# Escape Velocity Contact Clone (Contact Form & Footer Layout)
+# ✉️ Escape Velocity Contact Clone (Contact Form & Footer Layout)
 
 A simplified frontend recreation inspired by the contact section of the Escape Velocity template from HTML5 UP. This educational portfolio project focuses on recreating a modern contact form and footer layout using semantic HTML and CSS.
 
